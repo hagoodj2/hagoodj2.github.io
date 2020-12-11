@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Community</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+        <script src="js/jquery35.js"></script>
+        <script src="js/simple.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="js/testjava.js" defer></script>
+	
+	</head>
+	
+	<body>
+        <div class="container" id="main">
+            <div class="container_outer_img" id="communitynav">
+                <span cursor:pointer; onmouseover="openNav()" class="navhover"><img src="images/navarrow.svg"></span>
+           </div>
+            <header id="communitybackground">
+                <div id="mySidenav" class="sidenav">
+                    <div class="navhover2">
+                        <span cursor:pointer onmouseover="closeNav()"><img src="images/navarrow2.svg"></span>
+                      </div>
+                    <div class="pagelinks">
+                        <a href="#anchor03" class="scrollLink">Top</a>
+                        <a href="#anchor31" class="scrollLink">Forum</a>
+                        <a href="#anchor32" class="scrollLink">Check Us Out!</a>
+                        <a href="#anchor33" class="scrollLink">Bottom</a>
+                    </div>
+                </div>
+                <div class="contentheader">
+                    <div id="logocolumn">
+                        <div class="whole">
+                            <div id="circle">
+                                <svg id="demo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <circle r="100" fill="none" cx="820" cy="130" stroke="#E22F29" stroke-width="20"/>
+                                </svg>
+                            </div>
+                            <div id="letters">
+                                <div class="header"><h2>J</h2></div>
+                                <div class="sidebar right"><p>a</p></div>
+                                <div class="sidebar right2"><p>i</p></div>
+                                <div class="sidebar right3"><p>q</p></div>
+                                <div class="sidebar right4"><p>u</p></div>
+                                <div class="sidebar right5"><p>e</p></div>
+                                <div class="sidebar right6"><p>z</p></div>
+                            </div>
+                        </div>
+                        <div class="nav" id="anchor03">
+                            
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Game</a></li>
+                                    <li><a href="survivors.html">Survivors</a></li>
+                                    <li><a href="specialinfected.html">Special Infected</a></li>    
+                                    <li><a href="community.html">Community</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class= "titleinfected" >
+                        <h1>Your <span class="greenselected">Community</span></h1>
+                    </div>
+                </div>
+            </header>
+            <div id="anchor31">
+
+            </div>
+            <div class="wrap2">
+                <div class="subheadleft">
+                    <h2>Forum</h2>
+                </div>
+                <div class="wrap3content">
+                    <div class="wrap3text" id="forumtext">
+                        <p>Below are some forum usage guidelines. They are posted here as a general reminder in an effort to keep the forums friendly and usable for everyone.
+                        <br>
+                        The forums are for everyone, new and advanced users alike.
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            <div class="wholeforumplace"  id="anchor32">
+                <div class="sidebyside">
+                    <div class="first">
+                        <h2>Find A Squad</h2>
+                        <div class="containerimage">
+                            <img src="images/findasquad.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <div class="text"><span class="greenselected">Find a team</span><br> to take down the infected!</div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="second">
+                        <h2>Share Infected Advice</h2>
+                        <a href="forum.html"> <div class="containerimage">
+                            <img src="images/advice.jpg" alt="Avatar" class="image" id="billtank">
+                            <div class="overlay">
+                              <div class="text">Anything on your mind?<br> <span class="greenselected">Need some advice</span> <br>about the Left 4 Dead?  </div>
+                            </div>
+                          </div></a>
+                    </div>
+                </div>
+                <div class="sidebyside2">
+                    <div class="first">
+                        <h2>Bio</h2>
+                        <div class="containerimage">
+                            <img src="images/bio.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <div class="text">Get in the know about the <span class="greenselected">latest updates</span> for Left 4 Dead</div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="second">
+                        <h2>News</h2>
+                        <div class="containerimage">
+                            <img src="images/news.jpg" alt="Avatar" class="image" id="zombies">
+                            <div class="overlay">
+                              <div class="text"><span class="greenselected">More Info</span> about left 4 Dead</div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer id="anchor33">
+                <div class="footer" id="anchor7" >
+                    <p>2009 Valve, the Valve logo, Left 4 dead, the left 4 dead lgo, steam, the steam logo, source, the source logo, and valve source are trademarks and/or registered tradmarks of valve corporation in the united states and other countires. Xbox, Xbox 360, xbox live are trademarks of the microsoft group of companies and are used under license from Microsoft. All other trademarls are properties of their respective companies.</p>
+                </div>
+                <div class="footer2">
+                    <div class="mature">
+                        
+                    </div>
+                    <div class="xbox">
+                        
+                    </div>
+                    <div class="source">
+                    </div>
+                    <div class="valve">
+                    </div>
+                    <div class="titlefooter">
+                    </div>
+                    <div class="steam3">
+                    </div>
+                </div>
+                
+            </footer>
+        </div>
+        <script>
+            /* ScrollLink */
+            
+                  $(document).ready(function(){
+                  $( "a.scrollLink" ).click(function( event ) {
+                    event.preventDefault();
+                    $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+            
+            /*lookup*/
+              });
+            });
+            </script>
+    </body>
+</html>

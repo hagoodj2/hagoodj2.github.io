@@ -1,0 +1,1054 @@
+
+  h2{
+    font-family: 'Raparperitaivas';
+  }
+  .text{
+    font-family: 'Raparperitaivas';
+  }
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  animation: expand .8s ease;
+  transition: all .8s ease;
+}
+body{
+  background-color:  #101B07;
+}
+.title{
+  color: blue;
+  background-image: url("../images/title.svg");
+  height: 250px;
+  flex: 1;
+  margin-left: 550px;
+  margin-top: 400px;
+  background-repeat: no-repeat;
+}
+.sectionnav{
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-radius: 20px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color:#101B07;
+  margin-left: 450px;
+}
+.navhover{
+  /*float: right;*/
+  /*margin-right: 150px;*/
+  margin-top: 230px;
+  width: 30px;
+  border-radius: 15px;
+  /*background-color: rgba(106, 200, 189, 0.4);*/
+}
+.navhover2{
+  position: absolute;
+  width: 30px;
+
+
+  padding-right: 5px;
+}
+.container_outer_img {
+  overflow: hidden;
+    position: fixed;
+    width: 2%;
+  margin-left: 1500px;
+  z-index: 1;
+ 
+}
+
+.container_outer_img img {
+  margin-top: 170px;
+
+}
+.navhover2 img{
+  margin-top: 80px;
+  }
+.sidenav {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  border-radius: 30px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin-top: 50px;
+}
+.pagelinks {
+  background-color: rgba(16,27,7,4);
+  border-radius: 200px / 50px;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+  display: block;
+  transition: 0.3s;
+  font-family: 'Raparperitaivas';
+}
+
+.sidenav a:hover {
+  color: #E22F29;
+}
+
+.sidenav .closebtn {
+  /*position: absolute;*/
+  top: 0;
+  /*right: 25px;*/
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sectionnav a{
+  padding: 15px 8px 15px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  display: inline;
+  transition: 0.3s;
+}
+#communitybackground {
+background-image: url("../images/A-Left-4-Dead-2-update-with-Valves-blessings-is-incoming-2.jpg");
+}
+#community{
+  height: 300px;
+  flex: 1;
+  margin-left: 330px;
+  margin-top: 400px;
+}
+#community h1{
+  font-size: 96px;
+  color: white;
+  font-family: 'Raparperitaivas';
+}
+.sectionnav a:hover {
+color: #E22F29;
+}
+#infected {
+font-size: 96px;
+color: white;
+}
+#survivors {
+  background-image: url("../images/3646269-1901369238-Left4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.greenselected{
+  color: #6E9731;
+}
+#forumtext p{
+  padding-right: 880px;
+}
+.titleinfected{
+  height: 300px;
+  flex: 1;
+  margin-left: 600px;
+  margin-top: 450px;
+}
+.titleinfected h1{
+  font-size: 96px;
+  color: white;
+  font-family: 'Raparperitaivas';
+}
+#homebackground {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/ws_Left_4_Dead_2_2560x1600.jpg");
+}
+#specialbackground{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/left-4-dead-2-l4d2-background-hd-1920x1200-253423.jpg");
+}
+.nav{
+  flex: 1;
+  padding: 100px;
+  z-index: 1;
+}
+.color{
+  height: auto;
+  background-color: rgba(0,0,0,.6);
+}
+ul li {
+  padding: 30px 0;
+  font-size: 20px;
+}
+ul li a{
+  color: rgba(255,255,255,0.8);
+  font-family: 'Raparperitaivas';
+  padding: 50px;
+}
+ul li a:hover, ul li a:active  {
+ background-image: url("../images/splatter.svg");
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+}
+header {
+  height: 800px;
+}
+.contentheader{
+  display: flex;
+  flex-direction: row;
+}
+.subheadright h2{
+float: right;
+margin-right: 300px;
+margin-bottom: 100px;
+font-size: 96px;
+margin-top: 100px;
+font-family: 'Raparperitaivas';
+color: #E3D5D5;
+}
+#weapons{
+  background-color: rgba(0,0,0,.7);
+}
+.subheadleft h2{
+  float: left;
+margin-left: 200px;
+margin-bottom: 50px;
+margin-top: 100px;
+font-size: 96px;
+font-family: 'Raparperitaivas';
+color: #E3D5D5;
+
+}
+.wrap1{
+  display: flex;
+  flex-direction: column;
+background-color: #101B07;
+}
+.wrap2{
+  display: flex;
+  flex-direction: column;
+background-color: #101B07;
+
+}
+.wrap3{
+  display: flex;
+  flex-direction: column;
+background-color: #101B07;
+}
+.wrap4{
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/400748-left-4-dead-2-windows-screenshot-main-menu (1).jpg");
+}
+.wrap4 p {
+  margin-left: auto;
+  font-size: 25px;
+  line-height: 1.5em;
+  padding: 100px;
+  padding-top: 400px;
+  background-color: rgba(0,0,0,.7);
+  padding-left: 880px;
+  padding-bottom: 150px;
+/* max-width: 373px;*/
+
+
+  color: white;
+}
+.dropbtn {
+ 
+  color: white;
+  font-family: 'Raparperitaivas';
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 20px;
+  padding-left: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown li .dropbtn:active{
+  background-image: url("../images/splatter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.wrap5{
+  display: flex;
+  flex-direction: column;
+background-color: #101B07;
+}
+.wrap5content{
+  display: flex;
+  flex-direction: row;
+}
+.wrap5text {
+  display: flex;
+  flex-direction: column;    
+  flex: 1;
+}
+.wrap5text p{
+  float: right;
+  font-size: 25px;
+  padding: 120px;
+  line-height: 1.5em;
+  color: white;
+}
+.wrap3content{
+  display: flex;
+  flex-direction: row;
+}
+.wrap3text {
+  display: flex;
+  flex-direction: column;    
+  flex: 1;
+}
+
+.wrap3text p{
+  float: right;
+  font-size: 25px;
+  padding: 120px;
+  line-height: 1.5em;
+  color: white;
+}
+.imageright{
+  background-image: url("../images/newl4d2-screenshot-1.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 50%;
+
+flex: 1;
+}
+#imageright1{
+  background-image: url("../images/2020-09-25-image-10.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 50%;
+display: inline-block;
+flex: 1;
+}
+.wrap1content{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.wrap2content{
+  background-image: url("../images/newsteamworkshop_webupload_previewfile_113762019_preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  
+  flex-direction: column;
+
+}
+
+.wrap2content p {
+  margin-left: auto;
+  font-size: 25px;
+  line-height: 1.5em;
+  padding: 100px;
+  padding-top: 150px;
+  padding-left: 880px;
+  padding-bottom: 150px;
+/* max-width: 373px;*/
+background-color: rgba(0,0,0,.7);
+
+  color: white;
+}
+.wrap2content1{
+background-image: url("../images/new1076678411_preview_steamworkshop_webupload_previewfile_113762019_preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+}
+.wrap2content1 p{
+  font-size: 25px;
+  line-height: 1.5em;
+  padding: 100px;
+  padding-top: 350px;
+  padding-right: 880px;
+  padding-bottom: 350px;
+/* max-width: 373px;*/
+background-color: rgba(0,0,0,.7);
+
+  color: white;
+}
+.wrap1text {
+  display: flex;
+  flex-direction: column;    
+  flex: 1;
+}
+
+.wrap1text p{
+  float: right;
+  font-size: 25px;
+  padding: 120px;
+  line-height: 1.5em;
+  color: white;
+}
+
+.imageleft{
+  background-image: url("../images/1042210-l4d2_10.jpg");
+  background-color: #101B07;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  border-radius: 80%;
+
+
+}
+.footer{
+  background-color: #101B07;
+}
+.footer2 a:hover{
+color: red;
+}
+.footer p{
+  text-align: center;
+  color: #454546;
+  padding: 50px;
+  font-size: 17px;
+  padding: 120px;
+  line-height: 1.5em;
+}
+.footer2{
+  display: flex;
+  
+  justify-content: space-between;
+  background-color: #101B07;
+}
+.mature{
+  background-image: url("../images/Mature.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 100px;
+  flex:1;
+  
+}
+.xbox{
+  background-image: url("../images/XBOX.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+ margin-right: 50px;
+  
+  flex:1;
+}
+.source{
+  background-image: url("../images/Source.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  margin-right: 50px;
+  flex:1;
+}
+.valve{
+  background-image: url("../images/valve.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+
+  background-position: center;
+  
+  flex:1;
+}
+.titlefooter{
+  background-image: url("../images/titlefooter.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-position: center;
+  flex:1;
+}
+.steam3{
+  background-image: url("../images/steam.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 100px;
+  flex:1;
+ 
+  
+}
+#infected{
+  background-image: url("../images/left-4-dead-2-l4d2-background-hd-1920x1200-253423.jpg");
+}
+#hunter{
+background-image: url("../images/wp3390699.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+
+background-color: #101B07;
+}
+
+#hunter p{
+  padding-right: 900px;
+ 
+}
+#witch{
+  background-image: url("../images/witch.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+background-color: #101B07;
+}
+#witchtext p{
+  padding-right: 900px;
+}
+#charger{
+  background-image: url("../images/1448302886_preview_20180728220003_1 (1).jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+flex-direction: column;
+}
+#chargertext p{
+  padding-right: 900px;
+}
+#smoker{
+  background-image: url("../images/Smoker_concept_art.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+#smokertext p{
+  padding-right: 900px;
+}
+#boomer{
+  background-image: url("../images/maxresdefault (8).jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+#boomertext p{
+  padding-left: 900px;
+}
+#jockey{
+  background-image: url("../images/78820a.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left;
+display: flex;
+flex-direction: column;
+}
+#jockeytext p{
+  padding-left: 900px;
+}
+#spitter{
+  background-image: url("../images/left-4-dead-2-cut-scene-spitter.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+#spittertext p{
+  padding-right: 900px;
+}
+#tank{
+  background-image: url("../images/maxresdefault-(3).jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+#tanktext p{
+  padding-right: 900px;
+}
+#horde{
+  background-image: url("../images/l4d.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+#hordetext p{
+  padding-right: 900px;
+  
+}
+.characters {
+  display: flex;
+  flex-direction: column;
+}
+.characters p{
+  font-size: 25px;
+  padding: 100px;
+  padding-left: 100px;
+  line-height: 1.5em;
+  color: white;
+}
+#Nick{
+  background-image: url("../images/nick-and-coach-scything-through-the-undead-horde.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+#nicktext{
+  font-size: 25px;
+  padding: 120px;
+  
+  line-height: 1.5em;
+  color: white;
+}
+#nicktext p{
+  padding-right: 700px;
+}
+#rochelletext p{
+  padding-right: 700px;
+}
+#coachtext p{
+  padding-left: 700px;
+}
+#ellistext p{
+  padding-right: 700px;
+}
+#rochelletext{
+  font-size: 25px;
+  padding: 120px;
+  line-height: 1.5em;
+  color: white;
+}
+#coachtext{
+  font-size: 25px;
+  padding: 120px;
+  line-height: 1.5em;
+  color: white;
+}
+#ellistext{
+  font-size: 25px;
+  padding: 120px;
+  line-height: 1.5em;
+  color: white;
+}
+#Rochelle{
+  background-image: url("../images/maxresdefault-(6).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#Coach{
+  background-image: url("../images/coach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#Ellis{
+  background-image: url("../images/maxresdefault-(7).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.sidebyside{
+  display: flex;
+  
+}
+.sidebyside2{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.first {
+flex: 1;
+}
+.first h2{
+  font-size: 36px;
+  font-family: 'Raparperitaivas';
+  color: #E3D5D5;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+.second h2{
+  font-size: 36px;
+  font-family: 'Raparperitaivas';
+  color: #E3D5D5;
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+
+.second {
+  flex: 1;
+}
+
+.wholeforumplace{
+display: flex;
+flex-direction: column;
+}
+#billtank{
+  height: 400px;
+}
+#zombies{
+  height: 429px;
+}
+.containerimage{
+  position: relative;
+  flex: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  border-radius: 10%;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,.7);
+}
+
+.containerimage:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.tabs{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  flex: 1;
+}
+
+#individualtabs{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+#individualtabs a:hover{
+  transform: scale(1.1);
+  color: #E22F29;
+}
+#individualtabs a{
+  font-size: 36px;
+  font-family: 'Raparperitaivas';
+  color: #E3D5D5;
+  text-decoration: underline;
+    padding: 1px 5px 3px 28px;
+}
+#tabs2{
+  margin-top: 150px;
+}
+.icon img{
+  width: 20px;
+  background-color: #E3D5D5;
+  border-radius: 0%;
+  margin-right: 5px;
+}
+.time p{
+  padding: 30px;
+  opacity: 50%;
+}
+.arrow-down {
+  margin-top: 25px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  cursor: pointer;
+  border-top: 5px solid #E3D5D5;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 5%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 50px;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button p{
+  font-size: 20px;
+  font-family: 'Raparperitaivas';
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #101B07;
+}
+.button1:hover {
+  background-color: #D42F2B;
+  color: white;
+}
+.comments{
+  display: flex;
+flex-direction: row;
+border-bottom: 1px solid white;
+
+  margin-top: 50px;
+
+}
+.everythingincomment{
+    display: flex;
+    justify-content: space-around;
+}
+.intial{
+    flex: -1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: royalblue;
+    margin-left: 30px;
+}
+
+.intial p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Raparperitaivas';
+    text-align: center;
+}
+.intial2{
+  flex: -1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: rgb(46, 221, 163);
+  margin-left: 30px;
+}
+
+.intial2 p{
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Raparperitaivas';
+  text-align: center;
+}
+.intial3{
+  flex: -1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: rgb(161, 230, 34);
+  margin-left: 30px;
+}
+
+.intial3 p{
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Raparperitaivas';
+  text-align: center;
+}
+.intial4{
+  flex: -1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: rgb(226, 34, 201);
+  margin-left: 30px;
+}
+
+.intial4 p{
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Raparperitaivas';
+}
+.intial5{
+  flex: -1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: rgb(23, 228, 23);
+  margin-left: 30px;
+}
+
+.intial5 p{
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Raparperitaivas';
+  text-align: center;
+}
+.actualcomment{
+    flex: 1;
+}
+.actualcomment .actualtext {
+  font-size: 15px;
+  padding: 20px;
+  padding-right: 20px;
+}
+.actualcomment p{
+    font-size: 25px;
+    margin-left: 100px;
+    color: white; 
+}
+.replies{
+  flex: 1;
+  color: white;
+}
+.likes{
+    flex: 1;
+    color: white;
+}
+.views{
+    flex: 1;
+}
+.additions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    color: white;
+}
+#adviceimage{
+    background-image: url("../images/sfm__left_4_dead___bill_by_jsrd95-d8ut9h9-1200x675.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infectedadvice{
+    margin-bottom: 150px;
+  text-align: center;
+}
+.infectedadvice h2{
+    font-size: 60px;
+    font-family: 'Raparperitaivas';
+  color: #E3D5D5;
+}
+
+/*************logo*****/
+.header{
+  flex: 1;
+}
+
+.header h2{
+  font-family: 'Raparperitaivas';
+  color: #E3D5D5;
+  font-size: 70px;
+
+}
+.wholething{
+display: flex;
+/*justify-content: center;*/
+
+}
+#logocolumn{
+  display: flex;
+  flex-direction: column;
+}
+.whole{
+flex: 1;
+display: flex;
+flex-direction: column;
+margin-left: 175px;
+
+}
+.content{
+  flex-grow:1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar{
+  font-family: 'Raparperitaivas';
+  display: flex;
+  
+}
+.sidebar p{
+  font-size: 20px;
+}
+
+#demo {
+position: absolute;
+right: 50%;
+top: 50%;
+width: 50%;
+height: 80%;
+max-height: 80%;
+max-width: 80%;
+}
+#letters{
+  display: flex;
+  font-family: 'Raparperitaivas';
+  color: #E3D5D5;
+  position: absolute;
+  margin-top: 140px;
+}
